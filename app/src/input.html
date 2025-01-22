@@ -8,22 +8,30 @@
 </head>
 <body>
     
-   <div class="w-screen h-screen bg-black flex flex-col justify-center">
-    <div class="flex flex-col w-full h-full items-center justify-center">
-        <form class="text-white flex flex-col gap-y-2">
-              <label for="">Input 1</label>
-            <input 
-                class="py-2 px-4 rounded-md w-[300px] border-2 hover:border-orange-500 focus:outline-none focus:border-orange-400" 
-                placeholder="Search" 
-                type="text">
+<div class="w-screen h-screen bg-black flex flex-col justify-center">
+  <div class="flex flex-col w-full h-full items-center justify-center">
+    <form class="text-white flex flex-col gap-y-2">
+      <input
+        class="py-2 px-4 rounded-md w-[300px] border-b-2 
+               hover:border-orange-500 
+               focus:outline-none focus:border-orange-400 
+               bg-inherit"
+        placeholder="Search"
+        type="text"
+      />
+      <input
+        class="bg-inherit py-2 px-4 mt-4 w-[300px] cursor-pointer 
+               text-green-400 border-b-2 border-b-gray-600 rounded-lg 
+               hover:text-orange-500 focus:outline-none 
+               shadow-[0px_10px_20px_3px_green] 
+               hover:shadow-[0px_4px_30px_3px_orange]"
+        type="submit"
+      />
+    </form>
+  </div>
+</div>
 
-            <label for="">Input 2</label>
-            <input 
-                class="py-2 px-4 rounded-md w-[300px] border-2 hover:border-orange-500 focus:outline-none focus:border-orange-400" 
-                placeholder="Search" 
-                type="text">
-        </form>
-    </div>
+
 
 </div>
 
